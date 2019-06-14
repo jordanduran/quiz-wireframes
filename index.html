@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Odd Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed"
+      rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+
+    <!-- */********START PAGE*********/* -->
+    <main role="main">
+      <h1>Odd But True</h1>
+
+      <div class="odd-logo">
+        <img class="logo" src="oddlogo.png" alt="Odd But True logo">
+      </div>
+      <div class="start-quiz">
+        <p class='descrip'>Do you know the answers to these odd questions?<br>Lets
+          find out!</p>
+        <button class='start-button'>START QUIZ</button>
+      </div>
+
+
+
+
+      <!-- */*******QUESTIONS********/* -->
+
+      <section class= 'questions'>
+        <h2 class='question'></h2>
+        <p class="score"> Score: </p>
+        <ul class="list">
+        </ul>
+        <div id="feedback">
+
+        </div>
+        <div class='next'>
+          <button class="next-button">Next</button>
+        </div>
+
+        <p class= 'question-number'></p>
+      </section>
+
+      <!-- */***********COMPLETED PAGE************ -->
+
+      <section class= 'end-quiz'>
+        <p class= 'end-score'></p>
+        <p class='comment'></p>
+        <button class="retake-button">RESTART</button>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

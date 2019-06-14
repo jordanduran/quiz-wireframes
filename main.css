@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(40, 66, 105);
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+body {
+    font-size: 20px;
+}
+
+.questions {
+    border: 1px solid black;
+}
+
+button {
+    background-color: blueviolet;
+    font-size: 20px;
+}
